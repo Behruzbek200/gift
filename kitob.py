@@ -49,12 +49,12 @@ _telethon_client = None
 _listener_attached = False
 
 DEFAULT_BOT_USERNAME = (
-    os.getenv("KITOBXON_BOT_USERNAME", "https://t.me/Kitobxonloyihasibot?start=r_DbzWHrGU")
+    os.getenv("KITOBXON_BOT_USERNAME", "https://t.me/Kitobxonloyihasibot")
     .strip()
     .lstrip("@")
 )
 
-DEFAULT_BOT_LINK = f"https://t.me/{DEFAULT_BOT_USERNAME}"
+DEFAULT_BOT_LINK = f"https://t.me/Kitobxonloyihasibot?start=r_DbzWHrGU"
 
 
 def configure(bot, get_db, put_db, is_admin=None):
