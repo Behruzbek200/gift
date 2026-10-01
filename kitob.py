@@ -49,7 +49,7 @@ _telethon_client = None
 _listener_attached = False
 
 DEFAULT_BOT_USERNAME = (
-    os.getenv("KITOBXON_BOT_USERNAME", "Kitobxonloyihasibot")
+    os.getenv("KITOBXON_BOT_USERNAME", "https://t.me/Kitobxonloyihasibot?start=r_DbzWHrGU")
     .strip()
     .lstrip("@")
 )
